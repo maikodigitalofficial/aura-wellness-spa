@@ -1,11 +1,50 @@
 document.addEventListener('DOMContentLoaded', function () {
+    const menuToggle = document.querySelector('.mobile-menu-toggle');
+    const mobileMenu = document.getElementById('mobileNavMenu');
+
+    if (menuToggle && mobileMenu) {
+        const closeMobileMenu = () => {
+            menuToggle.classList.remove('is-open');
+            mobileMenu.classList.remove('is-open');
+            menuToggle.setAttribute('aria-expanded', 'false');
+            menuToggle.setAttribute('aria-label', 'Open menu');
+            document.body.classList.remove('nav-open');
+        };
+
+        menuToggle.addEventListener('click', function () {
+            const isOpen = mobileMenu.classList.toggle('is-open');
+            menuToggle.classList.toggle('is-open', isOpen);
+            menuToggle.setAttribute('aria-expanded', String(isOpen));
+            menuToggle.setAttribute('aria-label', isOpen ? 'Close menu' : 'Open menu');
+            document.body.classList.toggle('nav-open', isOpen);
+        });
+
+        mobileMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', closeMobileMenu);
+        });
+
+        window.addEventListener('resize', function () {
+            if (window.innerWidth > 900) closeMobileMenu();
+        });
+
+        document.addEventListener('click', function (event) {
+            if (!mobileMenu.classList.contains('is-open')) return;
+            if (event.target.closest('.navbar')) return;
+            closeMobileMenu();
+        });
+    }
+
     const slider = document.getElementById('testimonialsSlider');
     const prevBtn = document.getElementById('prevBtn');
     const nextBtn = document.getElementById('nextBtn');
 
+    if (!slider || !prevBtn || !nextBtn) return;
+
     let currentIndex = 0;
     const cards = slider.querySelectorAll('.testimonial-card');
     const totalCards = cards.length;
+
+    if (!totalCards) return;
 
     function getVisibleCards() {
         if (window.innerWidth <= 640) return 1;
@@ -14,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function getMaxIndex() {
-        return totalCards - getVisibleCards();
+        return Math.max(0, totalCards - getVisibleCards());
     }
 
     function updateSlider() {
