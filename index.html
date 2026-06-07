@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura Wellness Spa - Where Relaxation Meets Luxury.</title>
+
+    <link rel="icon" href="/assets/logo-main.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="#" class="logo">
+            <img src="/assets/logo-main.png" alt=" Aura Wellness Spa Logo" width="40px" height="40px">
+            <span class="logo-text">Aura Wellness Spa</span>
+        </a>
+
+        <ul class="nav-links">
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#specialists">Our Specialists</a></li>
+            <li><a href="#why-aura">Why Aura</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Locations</a></li>
+        </ul>
+
+        <div class="nav-actions">
+            <a href="#" class="btn-primary">Book Your Spa Day <i class="fa fa-arrow-right"></i></a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-tag">
+                    <div class="hero-tag-line"></div>
+                    <span class="hero-tag-text">Luxury Wellness & Spa Experiences</span>
+                </div>
+
+                <h1 class="hero-title">Where Relaxation <br> Meets Luxury.</h1>
+
+                <p class="hero-description">
+                    Indulge in premium spa treatments designed to help you relax, recharge, and feel your absolute best. From rejuvenating massages to advanced skincare therapies, every visit is crafted around your wellness journey.
+                </p>
+                <div class="hero-trust">
+                    <div class="trust-avatars">
+                        <div class="trust-avatar"><img src="https://i.pinimg.com/736x/a9/21/7f/a9217f43edd88f18a5bdbc480aa4d8e4.jpg" alt="client"></div>
+                        <div class="trust-avatar"><img src="https://i.pinimg.com/736x/db/1a/d6/db1ad64bf907f5af45adb47352956df6.jpg" alt="client"></div>
+                        <div class="trust-avatar"><img src="https://i.pinimg.com/736x/ea/5b/23/ea5b23c1c3a50a43b8142718391c2346.jpg" alt="client"></div>
+                        <div class="trust-avatar"><img src="https://i.pinimg.com/1200x/30/28/ac/3028ac10d3f427d72069f69c91fe4bb5.jpg" alt="client"></div>
+                    </div>
+                    <span class="trust-text"><strong>2,000+</strong> happy guests seeking relaxation and wellness.</span>
+                </div>
+
+                <div class="hero-buttons">
+                    <a href="#experience" class="btn-outline">Explore Treatments</a>
+                    <a href="#" class="btn-primary">Book Your Spa Day <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="appointment-card-wrapper">
+                <div class="appointment-card">
+                    <div class="card-badge">Available Today</div>
+                    <h3 class="card-title">Reserve Your Treatment</h3>
+
+                    <div class="form-group">
+                        <label class="form-label">Services</label>
+                        <input type="text" class="form-input" value="Select Treatment" readonly>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="form-label">Full Name</label>
+                            <input type="text" class="form-input" value="John Doe" readonly>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Phone</label>
+                            <input type="text" class="form-input" value="+254 713 324 672" readonly>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Preferred Date</label>
+                        <input type="text" class="form-input" value="mm/dd/yyyy" readonly>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Available Times — Today</label>
+                        <div class="time-slots">
+                            <span class="time-slot active">9:00 am</span>
+                            <span class="time-slot">10:30 am</span>
+                            <span class="time-slot">12:00 pm</span>
+                            <span class="time-slot">2:30 pm</span>
+                            <span class="time-slot">4:00 pm</span>
+                        </div>
+                    </div>
+
+                    <div class="card-footer">
+                        <span class="card-footer-icon">✓</span>
+                        <span>Flexible rescheduling available</span>
+                    </div>
+                </div>
+                <div class="decorative-dot"></div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats">
+            <div class="stat-item">
+                <div class="stat-number">2,500 <i class="fas fa-plus" style="color: black;"></i></div>
+                <div class="stat-label">Happy Guests</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">15 <i class="fas fa-plus" style="color: black;"></i></div>
+                <div class="stat-label">Luxury Treatments</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">98%</div>
+                <div class="stat-label">Guest Satisfactory</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">7 Days</div>
+                <div class="stat-label">Open Weekly</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">5<i class="fas fa-plus" style="color: black;"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="stat-label">Average Rating</div>
+            </div>
+        </section>
+
+
+        <div id="experience"></div>
+        <!-- Services Section -->
+        <!-- Services Section -->
+        <section class="services">
+            <div class="services-layout">
+                <!-- Left Column -->
+                <div class="services-left">
+                    <span class="services-pill">Featured Experiences</span>
+                    <h2 class="services-heading">Wellness Experiences Tailored For You</h2>
+                    <p class="services-desc">
+                        Every treatment is a carefully crafted journey designed to release tension, restore harmony, and leave you feeling renewed. Experience wellness tailored exclusively to you.
+                    </p>
+                    <a href="#" class="btn-primary service-btn">Explore All Treatments <i class="fa fa-arrow-right"></i></a>
+
+                    <div class="services-image-cards">
+                        <div class="service-img-card">
+                            <img src="https://i.pinimg.com/736x/a0/aa/78/a0aa78ab0b54165bdd12bbb8a2dea1cd.jpg" alt="Spa Treatment">
+                        </div>
+                        <div class="service-img-card">
+                            <img src="https://i.pinimg.com/1200x/bf/73/93/bf7393db2e204616dbc776e344ae7db8.jpg" alt="Facial Treatment">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Grid -->
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-hand-holding-heart"></i>
+                        </div>
+                        <h3 class="service-title">Signature Massage</h3>
+                        <p class="service-text">A personalized full-body massage designed to ease tension, improve circulation, and restore complete physical and mental balance through expert therapeutic techniques.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fa fa-spray-can-sparkles"></i>
+                        </div>
+                        <h3 class="service-title">Aromatherapy Therapy</h3>
+                        <p class="service-text">Immerse yourself in the healing power of essential oils as soothing aromas and gentle touch work together to calm the mind, reduce stress, and awaken the senses.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-soap"></i>
+                        </div>
+                        <h3 class="service-title">Body Scrub & Polish</h3>
+                        <p class="service-text">Reveal silky-smooth, radiant skin with a luxurious exfoliating treatment that gently removes impurities, boosts circulation, and leaves your body beautifully refreshed.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-people-arrows"></i>
+                        </div>
+                        <h3 class="service-title">Couples Spa Experience</h3>
+                        <p class="service-text">Share a moment of pure relaxation with a bespoke spa journey for two, featuring side-by-side treatments in a serene setting designed for connection and tranquility.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Why Choose Aura Section -->
+        <div id="why-aura"></div>
+
+        <!-- Why Choose Aura Section -->
+        <section class="why-aura" id="why-aura">
+            <div class="why-aura-header">
+                <span class="why-aura-pill">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                    </svg>
+                    Why Choose Aura
+                </span>
+                <h2 class="why-aura-heading">Why Guests Choose Aura Wellness Spa</h2>
+            </div>
+
+            <div class="why-aura-grid">
+                <div class="why-aura-card">
+                    <div class="why-aura-icon-circle" style="background: #d1fae5;">
+                        <i class="fa-solid fa-user-doctor" style="color:#059669;font-size:22px;"></i>
+                    </div>
+                    <h3 class="why-aura-card-title">Expert Therapists</h3>
+                    <p class="why-aura-card-text">Our certified professionals bring years of experience and a genuine passion for healing to every treatment.</p>
+                </div>
+
+                <div class="why-aura-card">
+                    <div class="why-aura-icon-circle" style="background: #ffedd5;">
+                        <i class="fa-solid fa-hotel" style="color:#ea580c;font-size:22px;"></i>
+                    </div>
+                    <h3 class="why-aura-card-title">Luxury Facilities</h3>
+                    <p class="why-aura-card-text">Immerse yourself in thoughtfully designed spaces featuring premium amenities and serene ambiance.</p>
+                </div>
+
+                <div class="why-aura-card">
+                    <div class="why-aura-icon-circle" style="background: #e9d5ff;">
+                        <i class="fa-solid fa-user-gear" style="color:#7c3aed;font-size:22px;"></i>
+                    </div>
+                    <h3 class="why-aura-card-title">Personalized Treatments</h3>
+                    <p class="why-aura-card-text">Every session is customized to your unique needs, preferences, and wellness goals for optimal results.</p>
+                </div>
+
+                <div class="why-aura-card">
+                    <div class="why-aura-icon-circle" style="background: #dbeafe;">
+                        <i class="fa-solid fa-leaf" style="color:#2563eb;font-size:22px;"></i>
+                    </div>
+                    <h3 class="why-aura-card-title">Premium Organic Products</h3>
+                    <p class="why-aura-card-text">We use only the finest natural and organic products, carefully selected for their purity and effectiveness.</p>
+                </div>
+
+                <div class="why-aura-card">
+                    <div class="why-aura-icon-circle" style="background: #fed7aa;">
+                        <i class="fa-solid fa-spa" style="color:#c2410c;font-size:22px;"></i>
+                    </div>
+                    <h3 class="why-aura-card-title">Relaxing Environment</h3>
+                    <p class="why-aura-card-text">From calming music to soothing scents, every detail is curated to transport you to a state of deep relaxation.</p>
+                </div>
+
+                <div class="why-aura-card">
+                    <div class="why-aura-icon-circle" style="background: #fecaca;">
+                        <i class="fa-solid fa-calendar-check" style="color:#dc2626;font-size:22px;"></i>
+                    </div>
+                    <h3 class="why-aura-card-title">Convenient Online Booking</h3>
+                    <p class="why-aura-card-text">Reserve your preferred treatments and time slots effortlessly through our seamless digital platform.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Spa Experience Section -->
+        <section class="spa-experience">
+            <div class="spa-experience-layout">
+                <!-- Left: Content -->
+                <div class="spa-experience-content">
+                    <span class="spa-experience-label">Our Sanctuary</span>
+                    <h2 class="spa-experience-heading">A Sanctuary Designed For Your Well-Being</h2>
+                    <p class="spa-experience-desc">
+                        Step into a sanctuary of tranquility and elegance. Soft lighting, natural textures, and soothing aromas create a calming escape designed to restore balance and well-being. Our expert therapists deliver personalized treatments in a serene environment where every detail is crafted for comfort, relaxation, and renewal.
+                    </p>
+                    <a href="#" class="btn-primary" style="display: inline-flex; width: fit-content;">Book Your Escape <i class="fa fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Right: Image Cards Grid -->
+                <div class="spa-experience-grid">
+                    <div class="spa-experience-card">
+                        <div class="spa-card-img">
+                            <img src="https://i.pinimg.com/736x/e9/05/47/e90547bf73eb5beb4bc74a8466897972.jpg" alt="Luxury spa interior">
+                        </div>
+                    </div>
+                    <div class="spa-experience-card">
+                        <div class="spa-card-img">
+                            <img src="https://i.pinimg.com/736x/03/f5/7d/03f57d4b6b5adc933754fab7d595cb0d.jpg" alt="Relaxing massage treatment">
+                        </div>
+                    </div>
+                    <div class="spa-experience-card">
+                        <div class="spa-card-img">
+                            <img src="https://i.pinimg.com/1200x/15/81/ab/1581ab05303d085e7b97dbf66a69ba21.jpg" alt="Calming spa atmosphere">
+                        </div>
+                    </div>
+                    <div class="spa-experience-card">
+                        <div class="spa-card-img">
+                            <img src="https://i.pinimg.com/1200x/33/89/06/338906e77a693d677562820918c364d3.jpg" alt="Spa aromatherapy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Treatment Packages Section -->
+        <section class="treatment-packages">
+            <div class="treatment-packages-layout">
+                <!-- Left: Content -->
+                <div class="treatment-packages-content">
+                    <span class="treatment-packages-label">Our Packages</span>
+                    <h2 class="treatment-packages-heading">Spa Packages For Every Occasion</h2>
+                    <p class="treatment-packages-desc">
+                        Whether you're seeking a quick escape from daily stress or a full day of indulgence, our thoughtfully curated packages are designed to meet you exactly where you are on your wellness journey.
+                    </p>
+                    <div class="treatment-packages-features">
+                        <div class="treatment-feature">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>World-Class Therapists</span>
+                        </div>
+                        <div class="treatment-feature">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>Premium Organic Products</span>
+                        </div>
+                        <div class="treatment-feature">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>Flexible Scheduling</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Pricing Cards -->
+                <div class="treatment-packages-cards">
+                    <!-- Card 1 -->
+                    <div class="treatment-card">
+                        <div class="treatment-card-badge">Serenity Escape</div>
+                        <div class="treatment-card-body">
+                            <div class="treatment-card-price-block">
+                                <div class="treatment-card-price">
+                                    <span class="treatment-price-currency">Ksh</span>
+                                    <span class="treatment-price-amount">4,500</span>
+                                    <span class="treatment-price-period">/session</span>
+                                </div>
+                                <p class="treatment-card-subtitle">The perfect option for personal relaxation & your next reset.</p>
+                                <a href="#" class="treatment-card-btn">Book now <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                            <ul class="treatment-card-list">
+                                <li>60 Min Full-Body Massage</li>
+                                <li>Rejuvenating Facial</li>
+                                <li>Complimentary Herbal Tea</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="treatment-card">
+                        <div class="treatment-card-badge treatment-card-badge--premium">Couples Retreat</div>
+                        <div class="treatment-card-body">
+                            <div class="treatment-card-price-block">
+                                <div class="treatment-card-price">
+                                    <span class="treatment-price-currency">Ksh</span>
+                                    <span class="treatment-price-amount">12,000</span>
+                                    <span class="treatment-price-period">/session</span>
+                                </div>
+                                <p class="treatment-card-subtitle">Best for shared experiences and creating lasting memories together.</p>
+                                <a href="#" class="treatment-card-btn">Book now <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                            <ul class="treatment-card-list">
+                                <li>Couples Side-by-Side Massage</li>
+                                <li>Dual Rejuvenating Facial</li>
+                                <li>Private Spa Lounge Access</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials">
+            <div class="testimonials-header">
+                <div class="testimonials-header-left">
+                    <span class="testimonials-label">Testimonial</span>
+                    <h2 class="testimonials-heading">What Our Guests Say</h2>
+                </div>
+                <a href="#" class="testimonials-cta brn-primary">Contact Sales</a>
+            </div>
+
+            <div class="testimonials-slider-outer">
+                <button class="testimonial-nav testimonial-nav--prev" id="prevBtn" aria-label="Previous testimonial">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+
+                <div class="testimonials-slider-wrapper">
+                    <div class="testimonials-slider" id="testimonialsSlider">
+                        <!-- Card 1 -->
+                        <div class="testimonial-card">
+                            <div class="testimonial-card-header">
+                                <div class="testimonial-author">
+                                    <img src="https://i.pinimg.com/736x/ee/9c/e4/ee9ce4265ed90a1c0dcfbd95320d39d6.jpg" alt="Sarah Mwangi" class="testimonial-avatar">
+                                    <div class="testimonial-author-info">
+                                        <span class="testimonial-name">Sarah Mwangi</span>
+                                        <span class="testimonial-role">Regular Guest</span>
+                                    </div>
+                                </div>
+                                <div class="testimonial-social">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </div>
+                            </div>
+                            <div class="testimonial-quote">
+                                <p class="testimonial-quote-bold">"The most relaxing experience</p>
+                                <p class="testimonial-quote-text"> I've ever had From the moment I walked in, I felt the stress melt away. The aromatherapy massage was absolutely divine and the staff made me feel like royalty. I can't wait to return."</p>
+                            </div>
+                            <div class="testimonial-footer">
+                                <div class="testimonial-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="testimonial-date">12/15/2024</span>
+                            </div>
+                        </div>
+
+                        <!-- Card 2 (Featured - image only with play button) -->
+                        <div class="testimonial-card testimonial-card--featured">
+                            <img src="https://i.pinimg.com/736x/60/2a/3c/602a3cbc592ae91cc3f50f2d3bc42625.jpg" alt="Spa experience" class="testimonial-featured-img">
+                            <div class="testimonial-card-overlay">
+                                <div class="testimonial-card-header">
+                                    <div class="testimonial-author-info">
+                                        <span class="testimonial-name">James Ochieng</span>
+                                        <span class="testimonial-role">First-Time Visitor</span>
+                                    </div>
+                                    <div class="testimonial-social">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </div>
+                                </div>
+                                <div class="testimonial-play-btn">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                                <div class="testimonial-footer">
+                                    <div class="testimonial-stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <span class="testimonial-date">11/28/2024</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="testimonial-card">
+                            <div class="testimonial-card-header">
+                                <div class="testimonial-author">
+                                    <img src="https://i.pinimg.com/1200x/fc/22/a8/fc22a838dbad7251f1569bdbbe26143b.jpg" alt="Amina Hassan" class="testimonial-avatar">
+                                    <div class="testimonial-author-info">
+                                        <span class="testimonial-name">Amina Hassan</span>
+                                        <span class="testimonial-role">Monthly Member</span>
+                                    </div>
+                                </div>
+                                <div class="testimonial-social">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </div>
+                            </div>
+                            <div class="testimonial-quote">
+                                <p class="testimonial-quote-bold">"My monthly ritual</p>
+                                <p class="testimonial-quote-text"> I can't live without. The signature facial has completely transformed my skin. The therapists truly understand personalized care and always go above and beyond."</p>
+                            </div>
+                            <div class="testimonial-footer">
+                                <div class="testimonial-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="testimonial-date">01/08/2025</span>
+                            </div>
+                        </div>
+
+                        <!-- Card 4 -->
+                        <div class="testimonial-card">
+                            <div class="testimonial-card-header">
+                                <div class="testimonial-author">
+                                    <img src="https://i.pinimg.com/736x/9a/1e/ea/9a1eeaf2f67c88dd4fbd5f140217908c.jpg" alt="David Kimani" class="testimonial-avatar">
+                                    <div class="testimonial-author-info">
+                                        <span class="testimonial-name">David Kimani</span>
+                                        <span class="testimonial-role">Corporate Client</span>
+                                    </div>
+                                </div>
+                                <div class="testimonial-social">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </div>
+                            </div>
+                            <div class="testimonial-quote">
+                                <p class="testimonial-quote-bold">"The perfect team wellness retreat."</p>
+                                <p class="testimonial-quote-text">We booked the spa for our company wellness day and it was phenomenal. The team left refreshed, recharged, and already asking when we can come back.</p>
+                            </div>
+                            <div class="testimonial-footer">
+                                <div class="testimonial-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="testimonial-date">02/20/2025</span>
+                            </div>
+                        </div>
+
+                        <!-- Card 5 -->
+                        <div class="testimonial-card">
+                            <div class="testimonial-card-header">
+                                <div class="testimonial-author">
+                                    <img src="https://i.pinimg.com/736x/10/96/f6/1096f66d775688b4e9b69500b2b9ac03.jpg" alt="Grace Wanjiku" class="testimonial-avatar">
+                                    <div class="testimonial-author-info">
+                                        <span class="testimonial-name">Grace Wanjiku</span>
+                                        <span class="testimonial-role">Bridal Party Guest</span>
+                                    </div>
+                                </div>
+                                <div class="testimonial-social">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </div>
+                            </div>
+                            <div class="testimonial-quote">
+                                <p class="testimonial-quote-bold">"Made my bridal shower unforgettable."</p>
+                                <p class="testimonial-quote-text">Aura hosted our bridal party spa day and it was absolutely perfect. Every detail was handled with care and the bride felt like a queen.</p>
+                            </div>
+                            <div class="testimonial-footer">
+                                <div class="testimonial-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="testimonial-date">03/05/2025</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="testimonial-nav testimonial-nav--next" id="nextBtn" aria-label="Next testimonial">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery" id="gallery">
+            <div class="gallery-header">
+                <span class="gallery-label">Our Space</span>
+                <h2 class="gallery-heading">Explore Our Spa</h2>
+            </div>
+
+            <div class="gallery-grid">
+                <!-- Featured: Treatment rooms (2×2) -->
+                <div class="gallery-item gallery-item--featured">
+                    <img src="https://i.pinimg.com/736x/e9/05/47/e90547bf73eb5beb4bc74a8466897972.jpg" alt="Treatment rooms">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag">Treatment Rooms</span>
+                    </div>
+                </div>
+
+                <!-- Standard: Reception -->
+                <div class="gallery-item">
+                    <img src="https://i.pinimg.com/736x/03/f5/7d/03f57d4b6b5adc933754fab7d595cb0d.jpg" alt="Reception">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag">Reception</span>
+                    </div>
+                </div>
+
+                <!-- Standard: Relaxation lounge -->
+                <div class="gallery-item">
+                    <img src="https://i.pinimg.com/1200x/15/81/ab/1581ab05303d085e7b97dbf66a69ba21.jpg" alt="Relaxation lounge">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag">Relaxation Lounge</span>
+                    </div>
+                </div>
+
+                <!-- Standard: Massage sessions -->
+                <div class="gallery-item">
+                    <img src="https://i.pinimg.com/1200x/33/89/06/338906e77a693d677562820918c364d3.jpg" alt="Massage sessions">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag">Massage Sessions</span>
+                    </div>
+                </div>
+
+                <!-- Standard: Facial treatments -->
+                <div class="gallery-item">
+                    <img src="https://i.pinimg.com/736x/a0/aa/78/a0aa78ab0b54165bdd12bbb8a2dea1cd.jpg" alt="Facial treatments">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag">Facial Treatments</span>
+                    </div>
+                </div>
+
+                <!-- Standard: Spa products -->
+                <div class="gallery-item">
+                    <img src="https://i.pinimg.com/1200x/bf/73/93/bf7393db2e204616dbc776e344ae7db8.jpg" alt="Spa products">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag">Spa Products</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section class="team" id="specialists">
+            <div class="team-header">
+                <span class="team-label">Our Specialists</span>
+                <h2 class="team-heading">Meet Our Wellness Experts</h2>
+            </div>
+
+            <div class="team-layout">
+                <span class="team-vertical-label">TEAM</span>
+
+                <div class="team-carousel-wrapper" id="teamCarouselWrapper">
+                    <div class="team-carousel" id="teamCarousel">
+                        <!-- Cards injected by JS -->
+                    </div>
+
+                    <button class="team-nav-btn team-nav-prev" id="teamPrevBtn" aria-label="Previous">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="team-nav-btn team-nav-next" id="teamNextBtn" aria-label="Next">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+
+                    <div class="team-dots" id="teamDots"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq" id="faq">
+            <div class="faq-layout">
+                <!-- Left Column -->
+                <div class="faq-left">
+                    <span class="faq-pill">Frequently asked questions</span>
+                    <h2 class="faq-heading">Frequently asked <span>questions</span></h2>
+                    <p class="faq-desc">
+                        Everything you need to know about your visit to Aura Wellness Spa. Can't find the answer you're looking for? Reach out to our friendly team.
+                    </p>
+                </div>
+
+                <!-- Right Column - Accordion -->
+                <div class="faq-accordion">
+                    <!-- FAQ Item 1 -->
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>How do I book a treatment?</span>
+                            <span class="faq-icon">
+                                <i class="fas fa-chevron-down"></i>
+                            </span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Booking is easy! You can reserve your treatment through our online booking system, call us directly, or send a WhatsApp message. We recommend booking at least 48 hours in advance to secure your preferred time slot.</p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 2 -->
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>What should I wear to the spa?</span>
+                            <span class="faq-icon">
+                                <i class="fas fa-chevron-down"></i>
+                            </span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>We provide plush robes, slippers, and disposable undergarments for all treatments. Wear whatever makes you comfortable — many guests arrive in casual clothing and change upon arrival. For massages, you'll be professionally draped at all times.</p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 3 -->
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Can I reschedule or cancel my appointment?</span>
+                            <span class="faq-icon">
+                                <i class="fas fa-chevron-down"></i>
+                            </span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Absolutely. We understand plans change. You can reschedule or cancel free of charge up to 24 hours before your appointment. Cancellations within 24 hours may incur a 50% fee. Just call us or use the link in your confirmation email.</p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 4 -->
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Do you offer gift cards or vouchers?</span>
+                            <span class="faq-icon">
+                                <i class="fas fa-chevron-down"></i>
+                            </span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes! Our gift cards make the perfect present for any occasion. Choose from specific treatments or monetary values. Gift cards are valid for 12 months and can be purchased online or at our reception. We also offer beautifully packaged physical cards.</p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 5 -->
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>What treatments are best for beginners?</span>
+                            <span class="faq-icon">
+                                <i class="fas fa-chevron-down"></i>
+                            </span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>We recommend starting with our Signature Massage or Classic Facial — both are gentle, customizable, and perfect for first-timers. Our therapists will consult with you before the treatment to tailor the experience to your comfort level and needs.</p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 6 -->
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>How early should I arrive before my appointment?</span>
+                            <span class="faq-icon">
+                                <i class="fas fa-chevron-down"></i>
+                            </span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>We recommend arriving 15–20 minutes early to complete any paperwork, change into your robe, and enjoy a complimentary herbal tea in our relaxation lounge. This ensures you get the full benefit of your treatment time without feeling rushed.</p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 7 -->
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Are your products organic and cruelty-free?</span>
+                            <span class="faq-icon">
+                                <i class="fas fa-chevron-down"></i>
+                            </span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes, we exclusively use premium organic, cruelty-free, and sustainably sourced products. We partner with trusted brands that align with our wellness philosophy. If you have allergies or sensitivities, please inform us when booking so we can prepare accordingly.</p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 8 -->
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Do you have parking available?</span>
+                            <span class="faq-icon">
+                                <i class="fas fa-chevron-down"></i>
+                            </span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes, we offer complimentary secure parking for all our guests. Upon arrival, our concierge will assist you. We also provide valet service during peak hours. For those using ride-sharing services, simply mention "Aura Wellness Spa" and drivers will know the drop-off point.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Booking CTA Section -->
+        <section class="booking-cta">
+            <div class="booking-cta-wrapper">
+                <!-- Scattered avatar images -->
+                <div class="booking-cta-avatars">
+                    <img src="https://i.pinimg.com/736x/af/ec/5f/afec5fd5f1b41e103947872f46669be6.jpg" alt="Client" class="booking-cta-avatar booking-cta-avatar--1">
+                    <img src="https://i.pinimg.com/736x/7e/46/c6/7e46c6d2798eff446b365c5246f4c9ca.jpg" alt="Client" class="booking-cta-avatar booking-cta-avatar--2">
+                    <img src="https://i.pinimg.com/736x/8f/8e/c9/8f8ec928f6727c4a7c9738b8a79a70ad.jpg" alt="Client" class="booking-cta-avatar booking-cta-avatar--3">
+                    <img src="https://i.pinimg.com/736x/51/d7/5a/51d75ae9f79b20bfb631739f13d2a654.jpg" alt="Client" class="booking-cta-avatar booking-cta-avatar--4">
+                    <img src="https://i.pinimg.com/1200x/2c/e3/98/2ce398b6e5a2999258f2327bbbb72a73.jpg" alt="Client" class="booking-cta-avatar booking-cta-avatar--5">
+                    <img src="https://i.pinimg.com/736x/86/df/4c/86df4c7f1659b1342abaf21512f3a965.jpg" alt="Client" class="booking-cta-avatar booking-cta-avatar--6">
+                    <img src="https://i.pinimg.com/736x/7d/e4/c4/7de4c4c91b6a68c6f4f59065e3efc700.jpg" alt="Client" class="booking-cta-avatar booking-cta-avatar--7">
+                    <img src="https://i.pinimg.com/736x/43/d7/16/43d716925da061a194dc992feb4b34ed.jpg" alt="Client" class="booking-cta-avatar booking-cta-avatar--8">
+                    <img src="https://i.pinimg.com/736x/ca/b1/8e/cab18e0810d98055fc3b79b921f39606.jpg" alt="Client" class="booking-cta-avatar booking-cta-avatar--9">
+                    <img src="https://i.pinimg.com/1200x/9d/28/11/9d28113497f3a0b18da9b71b0e720ed2.jpg" alt="Client" class="booking-cta-avatar booking-cta-avatar--10">
+                </div>
+
+                <!-- Content -->
+                <div class="booking-cta-content">
+                    <h2 class="booking-cta-heading">
+                        Ready To Relax,<br>Recharge & Renew?
+                    </h2>
+                    <p class="booking-cta-text">
+                        Experience luxury wellness tailored to your needs. Let our expert therapists guide you to a state of complete tranquility and rejuvenation.
+                    </p>
+                    <a href="#" class="booking-cta-btn">
+                        Book Appointment
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact & Location Section -->
+        <section class="contact" id="contact">
+            <div class="contact-header">
+                <h2 class="contact-heading">Get in touch, let us know<br>how we can help</h2>
+            </div>
+
+            <div class="contact-layout">
+                <!-- Left: Map -->
+                <div class="contact-map-wrapper">
+                    <div class="contact-map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255281.1989180684!2d36.68258744863281!3d-1.302861094990376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1172d84d49a7%3A0xf7cf0254b297924c!2sNairobi%2C%20Kenya!5e0!3m2!1sen!2s!4v1700000000000!5m2!1sen!2s"
+                            width="100%"
+                            height="100%"
+                            style="border:0; border-radius: 16px;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                        <div class="contact-map-pin">
+                            <div class="contact-pin-pulse"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Form -->
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" onsubmit="event.preventDefault();">
+                        <div class="contact-form-row">
+                            <div class="contact-form-group">
+                                <label class="contact-form-label">Your Name</label>
+                                <input type="text" class="contact-form-input" placeholder="Your full name" required>
+                            </div>
+                            <div class="contact-form-group">
+                                <label class="contact-form-label">Email address</label>
+                                <input type="email" class="contact-form-input" placeholder="Your email address" required>
+                            </div>
+                        </div>
+                        <div class="contact-form-group contact-form-group--full">
+                            <label class="contact-form-label">Message</label>
+                            <textarea class="contact-form-textarea" placeholder="Write something..." rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="contact-form-btn">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Contact Info Cards -->
+            <div class="contact-info-grid">
+                <div class="contact-info-card">
+                    <div class="contact-info-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-info-content">
+                        <span class="contact-info-label">Email address</span>
+                        <span class="contact-info-value">hello@aurawellness.com</span>
+                    </div>
+                </div>
+                <div class="contact-info-card">
+                    <div class="contact-info-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contact-info-content">
+                        <span class="contact-info-label">Phone Number</span>
+                        <span class="contact-info-value">+254 712 345 678</span>
+                    </div>
+                </div>
+                <div class="contact-info-card">
+                    <div class="contact-info-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-info-content">
+                        <span class="contact-info-label">Our Location</span>
+                        <span class="contact-info-value">Westlands, Nairobi, Kenya</span>
+                    </div>
+                </div>
+                <div class="contact-info-card">
+                    <div class="contact-info-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="contact-info-content">
+                        <span class="contact-info-label">Opening Hours</span>
+                        <span class="contact-info-value">Mon - Sun: 9AM - 9PM</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <!-- Top Section -->
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <h2 class="footer-heading">Indulge In Wellness —<br>One Treatment At A Time.</h2>
+                </div>
+                <div class="footer-newsletter">
+                    <h3 class="footer-newsletter-title">Get In Touch!</h3>
+                    <form class="footer-newsletter-form" onsubmit="event.preventDefault();">
+                        <input type="email" class="footer-newsletter-input" placeholder="Enter your email" required>
+                        <button type="submit" class="footer-newsletter-btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Links Section -->
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4 class="footer-column-title">Contact Information</h4>
+                    <ul class="footer-column-list">
+                        <li>
+                            <a href="mailto:hello@aurawellness.com" class="footer-link">
+                                <i class="fas fa-envelope"></i>
+                                hello@aurawellness.com
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tel:+254712345678" class="footer-link">
+                                <i class="fas fa-phone"></i>
+                                +254 712 345 678
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-column-title">Quick Links</h4>
+                    <ul class="footer-column-list">
+                        <li><a href="#" class="footer-link">Home</a></li>
+                        <li><a href="#experience" class="footer-link">Treatments</a></li>
+                        <li><a href="#packages" class="footer-link">Packages</a></li>
+                        <li><a href="#why-aura" class="footer-link">About</a></li>
+                        <li><a href="#contact" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-column-title">Services</h4>
+                    <ul class="footer-column-list">
+                        <li><a href="#" class="footer-link">Massage</a></li>
+                        <li><a href="#" class="footer-link">Facials</a></li>
+                        <li><a href="#" class="footer-link">Body Treatments</a></li>
+                        <li><a href="#" class="footer-link">Packages</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-column-title">Follow Us</h4>
+                    <div class="footer-socials">
+                        <a href="#" class="footer-social" aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        <a href="#" class="footer-social" aria-label="Facebook">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="footer-social" aria-label="TikTok">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21 8.5a8.38 8.38 0 0 1-4.69-1.45v6.58a6.84 6.84 0 1 1-5.84-6.77v3.24a3.59 3.59 0 1 0 3.17 3.57V2h3.31a5.05 5.05 0 0 0 4.05 4.92z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Section -->
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2026 Aura Wellness Spa. All Rights Reserved.</p>
+                <div class="footer-legal">
+                    <a href="#" class="footer-legal-link">Privacy</a>
+                    <a href="#" class="footer-legal-link">Terms & condition</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="main.js"></script>
+    <script src="/three/three-animation.js"></script>
+</body>
+</html>
